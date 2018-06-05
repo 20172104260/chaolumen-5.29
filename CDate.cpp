@@ -52,11 +52,11 @@ public:
 	}
 	void display()
 	{
-		cout << year << "." << month << "." << day << endl;
+		cout << "Tomorrow is " << year << "." << month << "." << day << endl;
 	}
-	int limit(int y,int m, int d)
+	int limit(int y, int m, int d)
 	{
-		int a ,b, c;
+		int a, b, c;
 		a = y;
 		b = m;
 		c = d;
@@ -102,16 +102,17 @@ int main()
 {
 	CDate od;
 	int a, b, c;
+	cout << "Please enter the date: " << endl;
 	cin >> a >> b >> c;
 	od.setvalue(a, b, c);
 	od.operation();
 	int m;
-	m = od.limit(a,b, c);
+	m = od.limit(a, b, c);
 	if (m == 1)
 	{
 		return 0;
 	}
-	
+
 	od.display();
 	return 0;
 }
