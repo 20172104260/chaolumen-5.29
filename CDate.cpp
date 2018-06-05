@@ -67,13 +67,13 @@ public:
 			{
 				if (c > j[b - 1])
 				{
-					cout << "日期无效" << endl;
+					cout << "invalid date!" << endl;
 					return 1;
 				}
 			}
 			else
 			{
-				cout << "日期无效" << endl;
+				cout << "invalid date!" << endl;
 				return 1;
 			}
 			//return 1;
@@ -85,13 +85,13 @@ public:
 			{
 				if (c > i[b - 1])
 				{
-					cout << "日期无效" << endl;
+					cout << "invalid date!" << endl;
 					return 1;
 				}
 			}
 			else
 			{
-				cout << "日期无效" << endl;
+				cout << "invalid date!" << endl;
 				return 1;
 			}
 			//return 1;
